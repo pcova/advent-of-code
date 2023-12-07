@@ -1,25 +1,39 @@
-# advent-of-code
+# Advent of Code 2023
 
-## Day 1
+This repository contains my solutions to the Advent of Code puzzles for this year 2023, implemented in Go.
 
-Run part 1
+## Structure
+
+The solutions are organized by days and parts:
+
 ```
-go run day1/part1/main.go < ./day1/input.txt
+advent-of-code/
+├─ dayX/
+│  ├─ partY/
+│  │  ├─ main.go
+│  ├─ partY+1/
+│  │  ├─ main.go
+│  ├─ input.txt
+├─ dayX+1/
+│  ├─ somePackage/
+│  │  ├─ exampleFile.go
+│  ├─ partY/
+│  │  ├─ main.go
+│  ├─ partY+1/
+│  │  ├─ main.go
+│  ├─ input.txt
+├─ go.mod
+├─ README.md
 ```
 
-Run part 2
-```
-go run day1/part2/main.go < ./day1/input.txt
+## Running the Solutions
+
+To run a puzzle solution just execute the following:
+
+```bash
+go run dayX/partY/main.go < dayX/input.txt
 ```
 
-## Day 2
+Replace X and Y with the respective day and part numbers.
 
-Run part 1
-```
-go run day2/part1/main.go < ./day2/input.txt
-```
-
-Run part 2
-```
-go run day2/part2/main.go < ./day2/input.txt
-```
+Feel free to explore the solutions and adapt them as needed!
