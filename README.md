@@ -13,7 +13,7 @@ advent-of-code/
 │  │  ├─ main.go
 │  ├─ partY+1/
 │  │  ├─ main.go
-│  ├─ input.txt
+│  ├─ example.txt
 ├─ dayX+1/
 │  ├─ somePackage/
 │  │  ├─ exampleFile.go
@@ -21,7 +21,7 @@ advent-of-code/
 │  │  ├─ main.go
 │  ├─ partY+1/
 │  │  ├─ main.go
-│  ├─ input.txt
+│  ├─ example.txt
 ├─ go.mod
 ├─ README.md
 ```
